@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+/* logo */
+.center {
+  display: inline-block;
+  width: 30%;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.tagline-1 {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 18%;
+}
+
+.parallax {
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-middle {
+  padding-top: 10px;
+}
+
+#parallax1 {
+  background-image: url("../images/blondie-desk-opt.jpg");
+}
+
+#parallax2 {
+  background-image: url("../images/faces-yellow-opt.jpg");
+}
+
+#parallax3 {
+  background-image: url("../images/totem-opt.jpg");
+}
+
+#parallax4 {
+  background-image: url("../images/bedroom-abstract.jpg");
+}
+
+#parallax5 {
+  background-image: url("../images/xoxo-opt.jpg");
+}
+
+.display-4 {
+  color: #2f2f33;
+}
+
+.vumc-link {
+  color: #1f2c69;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.container-map {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+ 
+}
+
+.map-row {
+  position: relative;
+  text-align: center;
+  height: 450px;
+  width: 100%;
+  margin: auto;
+}
+
+.col-map {
+  overflow: hidden;
+  background: none;
+  height: 450px;
+  width: 100%;
+  margin: auto;
+}
+
+/* Footer */
+.footer-titles {
+  color: #fafafa;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-titles:hover {
+  color: #88898b;
+}
+
+.signupcol {
+  margin-bottom: 15px;
+}
+/* contact us */
+.contact-separator {
+  background-color: #2f2f33;
+  color: #fafafa;
+  height: 45px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.inline-block {
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  line-height: 5px;
+}
+
+.fa-ul li {
+  color: #bdbdbd;
+  position: relative;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  left: -1em;
+}
+
+footer {
+  background-color: #2f2f33;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #fafafa;
+  background: #5a5959;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #3b3c41;
+}
+
+#footer-details {
+  padding: 20px;
+}
+
+.copyright {
+  color: #bdbdbd;
+  text-align: justify;
+  position: relative;
+  list-style-type: none;
+  padding-bottom: 15px;
+  margin: 0;
+  list-style: none;
+  font-size: 1rem;
+}
+
+.col-sm-12 {
+  text-align: center;
+  color: #88898b;
+}
+.col-sm p {
+  padding-left: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+/* Style inputs with type="text" */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-separator i {
+  color: #fafafa;
+  padding-left: 10px;
+}
+
+.gallery-separator i {
+  color: #fafafa;
+  padding-left: 10px;
+}
+
+/* Submit button with background color  */
+input[type="submit"] {
+  background-color: #2f2f33;
+  color: #88898b;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover over submit button = darker green color */
+input[type="submit"]:hover {
+  background-color: #2f2f33;
+}
+
+/* Add a background color and some padding around the form */
+.container-form {
+  background-color: #f1f1f1;
+  padding: 50px;
+  width: 100%;
+}
+
+/* gallery  */
+
+.gallery-separator {
+  background-color: #2f2f33;
+  color: #fafafa;
+  height: 45px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* media queries */
+
+/* Disable parallax scrolling for tablets and phones */
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+.container-image {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container-image .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */
+}

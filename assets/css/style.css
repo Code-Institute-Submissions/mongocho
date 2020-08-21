@@ -24,46 +24,15 @@ body {
   padding-top: 18%;
 }
 
-.parallax {
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.container-middle {
-  padding-top: 10px;
+/* carousel */
+.carousel slide {
+ top: 10%;
+ left: 50%;
+ position: relative;
 }
-
-#parallax1 {
-  background-image: url("../images/blondie-desk-opt.jpg");
-}
-
-#parallax2 {
-  background-image: url("../images/faces-yellow-opt.jpg");
-}
-
-#parallax3 {
-  background-image: url("../images/totem-opt.jpg");
-}
-
-#parallax4 {
-  background-image: url("../images/bedroom-abstract.jpg");
-}
-
-#parallax5 {
-  background-image: url("../images/xoxo-opt.jpg");
-}
-
-.display-4 {
-  color: #2f2f33;
-}
-
-.vumc-link {
-  color: #1f2c69;
-  font-weight: bolder;
-  font-size: 1.2rem;
+.carousel-control-prev {
+ color: #090997;
 }
 
 .container-map {

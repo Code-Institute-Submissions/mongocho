@@ -26,59 +26,36 @@ body {
 
 
 /* gallery */
-/* The grid: Four equal columns that floats next to each other */
+.gallery-separator {
+  background-color: #2f2f33;
+  color: #fafafa;
+  height: 45px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Create four equal columns that sits next to each other */
 .column {
-  float: left;
-  width: 25%;
-  padding: 10px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-/* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
-
-/* review */
-div.desc {
-  padding: 15px;
-  text-align: center;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .container-map {
@@ -356,7 +333,7 @@ input[type="submit"]:hover {
 
 .contact-form{
   background: #fff;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 70%;
 }

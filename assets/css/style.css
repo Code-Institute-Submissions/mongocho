@@ -37,9 +37,11 @@ body {
 }
 
 #parallax1 {
-  background-image: url("../images/framed-cartoons.jpg");
+  background-image: url("../images/cartoon-home11.jpeg");
 }
-
+#parallax2 {
+  background-image: url("../images/cartoon-home22.jpeg");
+}
 
 /* gallery */
 .gallery-separator {

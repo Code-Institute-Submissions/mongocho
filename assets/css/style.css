@@ -60,7 +60,6 @@ body {
   margin-bottom: 15px;
 }
 
-
 /* gallery  */
 /* Create four equal columns that sits next to each other */
 .column {
@@ -98,9 +97,6 @@ body {
   margin: 0 auto; /* Center */
 }
 
-
-
-
 /* Memory Game Styling */
 
 .memory-game-container {
@@ -115,33 +111,42 @@ body {
   flex-wrap: wrap;
   margin: auto;
   padding-bottom: 2%;
-
+  perspective: 1000px;
 }
+
 .memory-card {
   width: calc(25% - 30px);
   height: calc(33.333% - 30px);
   margin: 3px;
   position: relative;
   transform: scale(1);
-
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
-.memory-card :active{
-  transform: scale(.8);
-  transition: transform .3s;
+.memory-card :active {
+  transform: scale(0.8);
+  transition: transform 0.3s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
 }
 
 .front-face,
 .back-face {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: solid rgb(39, 32, 32);
+  border-width: 1px;
+  backface-visibility: hidden;
+}
 
-width: 100%;
-height: 100%;
-padding: 10px;
-position: absolute;
-border-radius: 10px;
-background: rgb(255, 255, 255);
-border:  solid rgb(39, 32, 32);
-border-width: 1px;
-
+.front-face {
+  transform: rotateY(180deg);
 }
 
 /* Footer */
@@ -225,18 +230,16 @@ textarea {
   padding-left: 10px;
 }
 
-
-
 /* Contact Us Form */
 
-.contact-form{
+.contact-form {
   background: #fff;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 100%;
 }
-.contact-form .form-control{
-  border-radius:1rem;
+.contact-form .form-control {
+  border-radius: 1rem;
 }
 .contact-image {
   text-align: center;

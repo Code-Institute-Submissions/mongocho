@@ -2,26 +2,22 @@
 
 # Mongocho
 
-## Pop Art Gallery
+## (de)MOtivational Cartoons
 
-I've designed and built this website to display and promote Pop Art as a way of both building a business and doing good, hoping to get attention from the public and amplify what VUMc is doing.
+I've designed and built this website to show and promote my cartoons and to utilize it as a platform to showcase my work as cartoonist.
 
-The gallery promotes art and collaborates with VUMc in Amsterdam, a hospital devoted to advance research in chronic diseases.
-KUUA donates 50% of their profits and aims to become a patron of the hospital.
+The website shows a limited number of drawings and cartoons in the gallery which I am planning to update regularly. 
+The memory game with some of the characters designed by me aims to entertain and to engage the visitors.
 
-Today, the work exhibited is from one painter (me), but it is the aim of KUUA to become a go-to online gallery for aspiring artists to collaborate.
-
-KUUA is the name of a .com owned by me. 
 The logo has been created by me
 
 ## UX
 
-This website has been created as a one page front end website with scrolling behaviour for overview of different art pieces and what the gallery has to offer.
-The colors pallete is in the grey spectrum with monotone approach for sobriety.
+This website has been designed as a multi-page front end website with parallax on scrolling.
+
 
 The website shows at first the logo and a painting displayed hanging on a wall in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
 
-_The feature of smooth scrolling does not work in all browsers and the possibility of fixing this with a Java Script is out of scope of this MS1_
 
 The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a site that not only sells art but also helps. A link to VU Medical Centre is in this section which opens in a separate tab.
 

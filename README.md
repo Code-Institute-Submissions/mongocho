@@ -1,5 +1,4 @@
-<img src="./assets/images/kuua-logo-circle.png" alt="logocopy" class="center" />
-
+<img src="assets/images/mongocho-card-back.png" alt="logocopy" class="center" />
 # Mongocho
 
 ## (de)MOtivational Cartoons

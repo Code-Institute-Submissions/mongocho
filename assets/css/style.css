@@ -105,7 +105,7 @@ body {
 }
 
 .memory-game {
-  width: 580px;
+  width: 600px;
   height: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -113,6 +113,19 @@ body {
   padding-bottom: 2%;
   perspective: 1000px;
 }
+/* Responsive layout - makes memory game responsive to S screens */
+@media screen and (max-width: 800px) {
+  .memory-game {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 2%;
+    perspective: 1000px;
+  }
+  }
+
 
 .memory-card {
   width: calc(25% - 30px);

@@ -54,9 +54,9 @@ There are several hover effects in the footer, over the titles and in social med
 - The navigation bar with links to the different pages
 - About Us with a short introduction
 - Different images of pieces displayed with parallax effect to give a dinamic an tridimentional look.
-- The gallery, with clickable buttons displaying available pieces
+- The gallery, with clickable buttons displaying samples of my cartoons
 - Contact Us, to email the gallery with questions and queries
-- An embedded GoogleMaps with the location to facilitate visitors to find us.
+- An embedded GoogleMaps with the location to facilitate visitors to find us
 - The Footer, with contact information and social media links
 
 ## Existing Features

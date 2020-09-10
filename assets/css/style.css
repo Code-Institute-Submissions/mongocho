@@ -135,6 +135,7 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 0.8s;
+  flex: 1 0 21%;
 }
 .memory-card :active {
   transform: scale(0.8);

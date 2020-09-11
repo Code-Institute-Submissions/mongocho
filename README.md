@@ -17,20 +17,17 @@ The logo has been created by me.
 This website has been designed as a multi-page front end website with parallax on scrolling.
 
 
-The website shows at first the logo and a painting displayed hanging on a wall in an interior, giving a hint of what the visitor can expect to see and potentially acquire on the site.
+The website shows at first the logo and a tagline, nav bar and sample of the drawings on parallax.
+There is a section with a short introduction to what MOngocho is about and a footer with subscribe section and social media links.
+
+There are several hover effects in the footer, over the titles and in social media icons.
 
 
-The flow goes below to a gallery statement explaining who they are and what is their mission, to engage visitors in a site that not only sells art but also helps. A link to VU Medical Centre is in this section which opens in a separate tab.
+The next page is a gallery  with a selection of cartoons and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
 
-Then, the gallery section appears with a selection of paintings and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
-
-Sections are separated by images of paintings displayed on walls with Parallax effect, giving a smooth navigation feeling.
 
 The Contact Us section is a form with "required fields" and drop down menu to select style of painting desired.
 
-For users unfamiliar with Amsterdam, an embedded map shows how to get to the gallery.
-
-There are several hover effects in the footer, over the titles and in social media icons.
 
 # User Stories
 
@@ -114,7 +111,6 @@ In all screens tested the website looks exactly in the desired way and responded
 There is a display issue identified: on IphoneX Max the website works well portrait but when turned to landscape position the Parallax background images blow out of proportion.
 I am currently investigating this issue and plan to fix it ASAP
 
-There is an issue with the gallery when swiping images left or right. after second image next image doesnt show. We are planning to fix this in next release. 
 
 ## Deployment
 

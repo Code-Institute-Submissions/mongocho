@@ -95,6 +95,8 @@ Go to "Contact Us"
 - All the tests below where done manually.
 - The tests where done in Chrome, Safari, Firefox and IE
 
+- HTML Code validated with [validator.w3.org](https://validator.w3.org/nu/#textarea)
+
 ### Using the website
 
 - Open the website and to see a hint of how a large print would look on a wall

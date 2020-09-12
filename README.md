@@ -35,8 +35,8 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 
 - As user, I want to see cartoons
 - As user, I want to be able to look at the cartoons in detail
-- As user, I want to be able to contact MOngocho to ask for a particular design
-- As user, I want to interact with the memory game and get familiarised with the characters
+- As user, I want to be able to contact Mongocho to ask for a particular design
+- As user, I want to play the memory game and get familiarised with the characters created by Mongocho
 
 ## As a cartoonist
 

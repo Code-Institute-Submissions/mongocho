@@ -13,7 +13,9 @@ body {
 .center {
   display: inline-block;
   width: 30%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   left: 50%;
   position: absolute;
 }
@@ -63,7 +65,9 @@ body {
 /* gallery  */
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -77,7 +81,7 @@ body {
 /* media queries */
 
 /* Disable parallax scrolling for tablets and phones */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .parallax {
     background-attachment: scroll;
   }
@@ -86,7 +90,9 @@ body {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
     max-width: 50%;
   }
 }
@@ -101,28 +107,38 @@ body {
 
 .memory-game-container {
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .memory-game {
   width: 500px;
   height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: auto;
   padding-bottom: 2%;
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 /* Responsive layout - makes memory game responsive to S screens */
 @media screen and (max-width: 800px) {
   .memory-game {
     width: 400px;
     height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: auto;
     padding-bottom: 2%;
-    perspective: 1000px;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
   }
   }
 
@@ -132,18 +148,34 @@ body {
   height: calc(33.333% - 30px);
   margin: 3px;
   position: relative;
-  transform: scale(1);
-  transform-style: preserve-3d;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  -o-transition: transform 0.8s;
   transition: transform 0.8s;
-  flex: 1 0 21%;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 21%;
+          flex: 1 0 21%;
 }
 .memory-card :active {
-  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .memory-card.flip {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .front-face,
@@ -156,11 +188,13 @@ body {
   background: rgb(255, 255, 255);
   border: solid rgb(39, 32, 32);
   border-width: 1px;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .front-face {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 /* Footer */
@@ -229,7 +263,8 @@ textarea {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -262,7 +297,9 @@ textarea {
   border-radius: 6rem;
   width: 11%;
   margin-top: auto;
-  transform: rotate(29deg);
+  -webkit-transform: rotate(29deg);
+      -ms-transform: rotate(29deg);
+          transform: rotate(29deg);
 }
 .contact-form form {
   padding: 14%;
@@ -295,4 +332,3 @@ textarea {
   border: none;
   cursor: pointer;
 }
-

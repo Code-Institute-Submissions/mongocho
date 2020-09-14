@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap");
-
 html {
   scroll-behavior: smooth;
 }
@@ -104,49 +103,57 @@ body {
 }
 
 /* Memory Game Styling */
-
 .memory-game-container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 500px;
+  margin: 0 auto;
 }
-
 .memory-game {
+  padding-bottom: 5%;
   width: 500px;
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: auto;
-  padding-bottom: 2%;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
 }
+
+
+.stat-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+}
+
+.modal-body {
+  max-width: 35%;
+  top: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 /* Responsive layout - makes memory game responsive to S screens */
 @media screen and (max-width: 800px) {
   .memory-game {
-    width: 400px;
+    width: 350px;
     height: 400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: auto;
-    padding-bottom: 2%;
-    -webkit-perspective: 1000px;
-            perspective: 1000px;
+    padding-bottom: 5%;
   }
+  .modal-body {
+    max-width: 90%;
   }
+  .memory-game-container {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
 
 
 .memory-card {
   width: calc(25% - 30px);
   height: calc(33.333% - 30px);
   margin: 3px;
+  cursor: pointer;
   position: relative;
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
@@ -174,6 +181,7 @@ body {
 }
 
 .memory-card.flip {
+  pointer-events: none;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -235,7 +243,7 @@ footer {
 
 .copyright {
   color: #bdbdbd;
-  text-align: center;
+  text-align: justify;
   position: relative;
   list-style-type: none;
   padding-bottom: 15px;

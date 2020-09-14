@@ -94,24 +94,30 @@ Go to "Contact Us"
 - We have asked 10 people to act as potential users of the website.
 - All the tests below where done manually.
 - The tests where done in Chrome, Safari, Firefox and IE
-
 - HTML Code validated with [validator.w3.org](https://validator.w3.org/nu/#textarea)
 
 ### Using the website
 
 - Open the website and to see a hint of how a large print would look on a wall
 - On the Navigation Bar, the user sees the options where to navigate to. The burger button does now collapse back up again in this version. An improved version with JS will be done in next release.
-- “Who" explains who KUUA is and what it stands for. It has a link to the institution that KUUA helps with 50% of the profits. by clicking the link a new tab will open with the hospital website.
-- “Gallery” the user will go to a collection of paintings and prints that are available in the gallery. The gallery shows in a pop up window the selected image and it changes to different paintings by clicking the arrows right or left, making it easy to navigate.
+
+- “Gallery” the user will go to a collection of cartoons, showin in a pop up window the selected image and it changes to different pieces by clicking the arrows right or left, making it easy to navigate.
 - "Contact US" scrolls down to a form to select different reasons to contact in a drop down menu. The form offers an intuitive and easy way to get in contact with the gallery.
 - "Location" has a Google Map, which worked well in the devices tested.
 
-The website provides a complete overview of what the gallery has to offer. 
-
 In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
-There is a display issue identified: on IphoneX Max the website works well portrait but when turned to landscape position the Parallax background images blow out of proportion.
-I am currently investigating this issue and plan to fix it ASAP
+
+### Bugs
+
+There was a bug when displaying the memory card in small screen. The cards animation did not work and the functionality of the game was not responding.
+
+The problem is now fixed.
+The css transform property is not fully supported by IOS browsers, to fully support it, I needed to add some css browser specific prefix to make it work on iOS (-webkit-transform:) . What I did was to copy the css file into https://autoprefixer.github.io/ to help format it and add the necessary css prefixes so it can be supported by most browsers.
+now is working very well.
+
+There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion
+The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px. 
 
 
 ## Deployment

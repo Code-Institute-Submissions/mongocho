@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
   <!-- logo -->
   <img src="./assets/images/mongocho-logo.png" alt="logocopy" class="center" />
 
@@ -53,106 +52,115 @@
   </nav>
 
  <!-- Memory Game -->
-<div class="memory-game-container">
-
-<section class="memory-game">
-  <div class="memory-card" data-image="card-man-1">
-    <img class="front-face" src="./assets/images/card-man-1.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
+ 
+<div class="memory-game-container vh-100 pt-5">
+  <div class="d-flex justify-content-center align-items-center flex-column">
+  <div class="restart-btn d-flex justify-content-between p-2 w-100 ">
+    <input class="p-2 bg-info border border-0 text-white w-25 rounded-lg" type="button" value="Restart" />
+    <p id="counter-1" class="align-self-center m-0">Total pairs flipped: 0 </p>
   </div>
-  <div class="memory-card" data-image="card-man-2">
-    <img class="front-face" src="./assets/images/card-man-2.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-3">
-    <img class="front-face" src="./assets/images/card-man-3.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-4">
-    <img class="front-face" src="./assets/images/card-man-4.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-1">
-    <img class="front-face" src="./assets/images/card-woman-1.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-2">
-    <img class="front-face" src="./assets/images/card-woman-2.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-3">
-    <img class="front-face" src="./assets/images/card-woman-3.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-4">
-    <img class="front-face" src="./assets/images/card-woman-4.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-1">
-    <img class="front-face" src="./assets/images/card-man-1.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-2">
-    <img class="front-face" src="./assets/images/card-man-2.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-3">
-    <img class="front-face" src="./assets/images/card-man-3.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-man-4">
-    <img class="front-face" src="./assets/images/card-man-4.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-1">
-    <img class="front-face" src="./assets/images/card-woman-1.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-2">
-    <img class="front-face" src="./assets/images/card-woman-2.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-3">
-    <img class="front-face" src="./assets/images/card-woman-3.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
-  <div class="memory-card" data-image="card-woman-4">
-    <img class="front-face" src="./assets/images/card-woman-4.png"
-    alt="mongocho" />
-    <img class="back-face" src="./assets/images/mongocho-card-back.png"
-    alt="mongocho back" />
-  </div>
+  <section class=" d-flex flex-wrap memory-game">
+    <div class="memory-card" data-image="card-man-1">
+      <img class="front-face" src="./assets/images/card-man-1.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-2">
+      <img class="front-face" src="./assets/images/card-man-2.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-3">
+      <img class="front-face" src="./assets/images/card-man-3.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-4">
+      <img class="front-face" src="./assets/images/card-man-4.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-1">
+      <img class="front-face" src="./assets/images/card-woman-1.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-2">
+      <img class="front-face" src="./assets/images/card-woman-2.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-3">
+      <img class="front-face" src="./assets/images/card-woman-3.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-4">
+      <img class="front-face" src="./assets/images/card-woman-4.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-1">
+      <img class="front-face" src="./assets/images/card-man-1.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-2">
+      <img class="front-face" src="./assets/images/card-man-2.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-3">
+      <img class="front-face" src="./assets/images/card-man-3.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-man-4">
+      <img class="front-face" src="./assets/images/card-man-4.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-1">
+      <img class="front-face" src="./assets/images/card-woman-1.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-2">
+      <img class="front-face" src="./assets/images/card-woman-2.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-3">
+      <img class="front-face" src="./assets/images/card-woman-3.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+    <div class="memory-card" data-image="card-woman-4">
+      <img class="front-face" src="./assets/images/card-woman-4.png"
+      alt="mongocho" />
+      <img class="back-face" src="./assets/images/mongocho-card-back.png"
+      alt="mongocho back" />
+    </div>
+  </section>
 </div>
+</div>
+
+
 
 <!-- Footer -->
 
@@ -220,21 +228,24 @@
         </ul>
       </div>
     </div>
-    <div class="copyright">
-      <p>&copy; Mongocho - All rights reserved 2020</p>
+    <div class="row text-center">
+      <div class="col">
+        <p>&copy; Mongocho - All rights reserved 2020</p>
       </div>
   </footer>
-      <!-- modal -->
-      <div class="stat-modal vw-100 vh-100 position-fixed justify-content-center">
-        <div class="modal-body p-2 align-items-center rounded-lg bg-white">
-          <h3 class="text-center p-3">GAME OVER</h3>
-          <p id="counter-2" class="text-center p-1"></p>
-          <div class="d-flex p-3 justify-content-between">
-            <input id="close" class="p-2 border border-0 text-dark w-50" type="button" value="Close"/>
-            <input id="play" class="p-2 bg-info border border-0 text-white w-50" type="button" value="Play Again"/>
-          </div>
-        </div>
+  
+  <!-- modal -->
+  <div class="stat-modal vw-100 vh-100 position-fixed justify-content-center">
+    <div class="modal-body p-2 align-items-center rounded-lg bg-white">
+      <h3 class="text-center p-3">You won</h3>
+      <p id="counter-2" class="text-center p-1"></p>
+      <div class="d-flex p-3 justify-content-between">
+        <input id="close" class="p-2 border border-0 text-dark w-50" type="button" value="Close"/>
+        <input id="play" class="p-2 bg-info border border-0 text-white w-50" type="button" value="Play Again"/>
       </div>
+    </div>
+  </div>
+
  <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

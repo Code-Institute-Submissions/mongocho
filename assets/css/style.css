@@ -13,8 +13,8 @@ body {
   display: inline-block;
   width: 30%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   left: 50%;
   position: absolute;
 }
@@ -65,8 +65,8 @@ body {
 /* Create four equal columns that sits next to each other */
 .column {
   -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -90,8 +90,8 @@ body {
 @media screen and (max-width: 800px) {
   .column {
     -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
     max-width: 50%;
   }
 }
@@ -138,7 +138,7 @@ body {
   }
 
   to {
-    top:30%
+    top: 30%;
   }
 }
 @keyframes modalAnimation {
@@ -147,7 +147,7 @@ body {
   }
 
   to {
-    top:30%
+    top: 30%;
   }
 }
 /* Responsive layout - makes memory game responsive to S screens */
@@ -168,7 +168,6 @@ body {
   }
 }
 
-
 .memory-card {
   width: calc(25% - 30px);
   height: calc(33.333% - 30px);
@@ -176,23 +175,23 @@ body {
   cursor: pointer;
   position: relative;
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   -webkit-transition: -webkit-transform 0.8s;
   transition: -webkit-transform 0.8s;
   -o-transition: transform 0.8s;
   transition: transform 0.8s;
   transition: transform 0.8s, -webkit-transform 0.8s;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 21%;
-          flex: 1 0 21%;
+  -ms-flex: 1 0 21%;
+  flex: 1 0 21%;
 }
 .memory-card :active {
   -webkit-transform: scale(0.8);
-      -ms-transform: scale(0.8);
-          transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
@@ -203,7 +202,7 @@ body {
 .memory-card.flip {
   pointer-events: none;
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .front-face,
@@ -217,12 +216,12 @@ body {
   border: solid rgb(39, 32, 32);
   border-width: 1px;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .front-face {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 /* Footer */
@@ -292,7 +291,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -326,8 +325,8 @@ textarea {
   width: 11%;
   margin-top: auto;
   -webkit-transform: rotate(29deg);
-      -ms-transform: rotate(29deg);
-          transform: rotate(29deg);
+  -ms-transform: rotate(29deg);
+  transform: rotate(29deg);
 }
 .contact-form form {
   padding: 14%;

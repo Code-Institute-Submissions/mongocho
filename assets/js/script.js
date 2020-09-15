@@ -44,7 +44,7 @@ const restartButton = document.querySelector('.restart-btn');
       setTimeout(() => {
         document.getElementById('counter-2').innerHTML = `Total pairs flipped: ${counter}`
         modal.style.display = 'flex';
-      }, 700)
+      }, 850)
     }
    resetBoard();
   }

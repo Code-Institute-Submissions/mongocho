@@ -6,7 +6,7 @@
 
 I've designed and built this website to show and promote my cartoons and to utilize it as a platform to showcase my work as cartoonist.
 
-The website shows a limited number of drawings and cartoons in the gallery which I am planning to update regularly. 
+The website shows a limited number of drawings and cartoons in the gallery which I am planning to update regularly.
 
 I have included a memory game with some of my characters which aims to entertain and to engage the visitors.
 
@@ -16,18 +16,14 @@ The logo has been created by me.
 
 This website has been designed as a multi-page front end website with parallax on scrolling.
 
-
 The website shows at first the logo and a tagline, nav bar and sample of the drawings on parallax.
 There is a section with a short introduction to what MOngocho is about and a footer with subscribe section and social media links.
 
 There are several hover effects in the footer, over the titles and in social media icons.
 
-
-The next page is a gallery  with a selection of cartoons and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
-
+The next page is a gallery with a selection of cartoons and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
 
 The Contact Us section is a form with "required fields" and drop down menu to select style of painting desired.
-
 
 # User Stories
 
@@ -79,14 +75,14 @@ Go to "Contact Us"
 
 ## The project was build with:
 
-* HTML, to structure the website
-* CSS, to style the website
-* [jQuery](https://jquery.com/), for gallery
-* [Visual Studio Code](https://code.visualstudio.com/), for the development environment
-* [Github](https://github.com/), as the version control technology and GitHub Pages as the webserver technology to publish the website
-* [Bootstrap](https://getbootstrap.com/), to utilize responsive elements
-* [Font Awesome](https://fontawesome.com/), to utilize icons
-* [Google Fonts](https://fonts.google.com/), to utilize different fonts
+- HTML, to structure the website
+- CSS, to style the website
+- [jQuery](https://jquery.com/), for gallery
+- [Visual Studio Code](https://code.visualstudio.com/), for the development environment
+- [Github](https://github.com/), as the version control technology and GitHub Pages as the webserver technology to publish the website
+- [Bootstrap](https://getbootstrap.com/), to utilize responsive elements
+- [Font Awesome](https://fontawesome.com/), to utilize icons
+- [Google Fonts](https://fonts.google.com/), to utilize different fonts
 
 ## Testing
 
@@ -107,7 +103,6 @@ Go to "Contact Us"
 
 In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
-
 ### Bugs
 
 There was a bug when displaying the memory card in small screen. The cards animation did not work and the functionality of the game was not responding.
@@ -117,8 +112,7 @@ The css transform property is not fully supported by IOS browsers, to fully supp
 now is working very well.
 
 There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion
-The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px. 
-
+The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px.
 
 ## Deployment
 
@@ -137,7 +131,6 @@ In order to do this is followed the below steps:
 - Under MOngocho repository name, click “Settings”.
 - Under "GitHub Pages", use the Source drop-down menu and select Master Branch for live url.
 
-
 ## Wireframes
 
 Wireframes created in Balsamiq:
@@ -149,7 +142,7 @@ You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blo
 ## Content
 
 - The full website has been completely created by me.
-- The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/) 
+- The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/)
 - The memory game has been created following tutorial by Marina Ferreira - Software Engineer | Code Sketch Channel Tutorials [here](https://marina-ferreira.github.io/tutorials/js/memory-game/)
 - I used modules of Bootstrap and styled to my taste
 
@@ -161,5 +154,3 @@ You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blo
 ## Acknowledgements
 
 - Special thanks to my mentor [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance
-
-

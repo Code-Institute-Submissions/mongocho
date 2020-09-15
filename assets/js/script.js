@@ -1,99 +1,101 @@
-const cards = document.querySelectorAll('.memory-card');
-const modal = document.querySelector('.stat-modal');
-const closeButton = document.getElementById('close');
-const replayButton = document.getElementById('play');
-const counterDisplay = document.getElementById('counter-1');
-const restartButton = document.querySelector('.restart-btn');
+const cards = document.querySelectorAll(".memory-card");
+const modal = document.querySelector(".stat-modal");
+const closeButton = document.getElementById("close");
+const replayButton = document.getElementById("play");
+const counterDisplay = document.getElementById("counter-1");
+const restartButton = document.querySelector(".restart-btn");
 
-  let hasFlippedCard = false;
-  let lockBoard = false;
-  let firstCard, secondCard;
-  let counter = 0;
-  let closedCards = 0;
+let hasFlippedCard = false;
+let lockBoard = false;
+let firstCard, secondCard;
+let counter = 0;
+let closedCards = 0;
 
-  function flipCard() {
-    if (lockBoard) return;
-   if (this === firstCard) return;
+function flipCard() {
+  if (lockBoard) return;
+  if (this === firstCard) return;
 
-    this.classList.add('flip');
+  this.classList.add("flip");
 
-    if (!hasFlippedCard) {
-      hasFlippedCard = true;
-      firstCard = this;
-      return;
-    }
-
-    secondCard = this;
-   hasFlippedCard = false;
-   counter++;
-   counterDisplay.innerHTML = `Total pairs flipped: ${counter}`
-
-    checkForMatch();
+  if (!hasFlippedCard) {
+    hasFlippedCard = true;
+    firstCard = this;
+    return;
   }
 
-  function checkForMatch() {
-    let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-    isMatch ? disableCards() : unflipCards();
-  }
+  secondCard = this;
+  hasFlippedCard = false;
+  counter++;
+  counterDisplay.innerHTML = `Total pairs flipped: ${counter}`;
 
-  function disableCards() {
-    firstCard.removeEventListener('click', flipCard);
-    secondCard.removeEventListener('click', flipCard);
-    closedCards -= 2;
-    if (closedCards == 0){
-      setTimeout(() => {
-        document.getElementById('counter-2').innerHTML = `Total pairs flipped: ${counter}`
-        modal.style.display = 'flex';
-      }, 850)
-    }
-   resetBoard();
-  }
+  checkForMatch();
+}
 
-  function unflipCards() {
-    lockBoard = true;
+function checkForMatch() {
+  let isMatch = firstCard.dataset.image === secondCard.dataset.image;
+  isMatch ? disableCards() : unflipCards();
+}
 
+function disableCards() {
+  firstCard.removeEventListener("click", flipCard);
+  secondCard.removeEventListener("click", flipCard);
+  closedCards -= 2;
+  if (closedCards == 0) {
     setTimeout(() => {
-      firstCard.classList.remove('flip');
-      secondCard.classList.remove('flip');
-
-     lockBoard = false;
-     resetBoard();
-    }, 1500);
+      document.getElementById(
+        "counter-2"
+      ).innerHTML = `Total pairs flipped: ${counter}`;
+      modal.style.display = "flex";
+    }, 850);
   }
+  resetBoard();
+}
 
-  function resetBoard() {
-    [hasFlippedCard, lockBoard] = [false, false];
-    [firstCard, secondCard] = [null, null];
-  }
+function unflipCards() {
+  lockBoard = true;
 
-  const shuffle = () => {
-    cards.forEach(card => {
-      let ramdomPos = Math.floor(Math.random() * 16);
-      card.style.order = ramdomPos;
-      closedCards++;
-      card.addEventListener('click', flipCard)
-    })
-  }
+  setTimeout(() => {
+    firstCard.classList.remove("flip");
+    secondCard.classList.remove("flip");
 
-  const restart = () => {
-    modal.style.display = 'none';
-    closedCards = 0;
-    counter = 0;
-    counterDisplay.innerHTML = `Total pairs flipped: ${counter}`
-    const flippedCards = document.querySelectorAll('.flip');
-    flippedCards.forEach(card => {
-      card.classList.remove('flip');
-    })
+    lockBoard = false;
+    resetBoard();
+  }, 1500);
+}
 
-    setTimeout(() => {
-      shuffle();
-    }, 500)
-  }
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
+}
 
-  closeButton.addEventListener('click', () => {
-    modal.style.display = 'none';
-  })
-  
-  replayButton.addEventListener('click', restart)
-  restartButton.addEventListener('click', restart)
-  shuffle();
+const shuffle = () => {
+  cards.forEach((card) => {
+    let ramdomPos = Math.floor(Math.random() * 16);
+    card.style.order = ramdomPos;
+    closedCards++;
+    card.addEventListener("click", flipCard);
+  });
+};
+
+const restart = () => {
+  modal.style.display = "none";
+  closedCards = 0;
+  counter = 0;
+  counterDisplay.innerHTML = `Total pairs flipped: ${counter}`;
+  const flippedCards = document.querySelectorAll(".flip");
+  flippedCards.forEach((card) => {
+    card.classList.remove("flip");
+  });
+
+  setTimeout(() => {
+    shuffle();
+  }, 500);
+};
+
+closeButton.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+replayButton.addEventListener("click", restart);
+restartButton.addEventListener("click", restart);
+shuffle();

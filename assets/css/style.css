@@ -106,6 +106,7 @@ body {
 .memory-game-container {
   width: 500px;
   margin: 0 auto;
+  padding: 48px 0 72px 0;
 }
 .memory-game {
   padding-bottom: 5%;

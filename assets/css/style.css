@@ -128,8 +128,28 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  -webkit-animation: modalAnimation 0.5s linear;
+  animation: modalAnimation 0.5s linear;
 }
 
+@-webkit-keyframes modalAnimation {
+  from {
+    top: 0%;
+  }
+
+  to {
+    top:30%
+  }
+}
+@keyframes modalAnimation {
+  from {
+    top: 0%;
+  }
+
+  to {
+    top:30%
+  }
+}
 /* Responsive layout - makes memory game responsive to S screens */
 @media screen and (max-width: 800px) {
   .memory-game {

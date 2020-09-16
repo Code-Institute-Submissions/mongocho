@@ -300,12 +300,10 @@ textarea {
   color: #fafafa;
   padding-left: 10px;
 }
-
 .gallery-separator i {
   color: #fafafa;
   padding-left: 10px;
 }
-
 /* Contact Us Form */
 
 .contact-form {
@@ -317,9 +315,11 @@ textarea {
 .contact-form .form-control {
   border-radius: 1rem;
 }
+
 .contact-image {
   text-align: center;
 }
+
 .contact-image img {
   border-radius: 6rem;
   width: 11%;
@@ -328,18 +328,22 @@ textarea {
   -ms-transform: rotate(29deg);
   transform: rotate(29deg);
 }
+
 .contact-form form {
   padding: 14%;
 }
+
 .contact-form form .row {
   margin-bottom: -7%;
 }
+
 .contact-form h3 {
   margin-bottom: 2%;
   margin-top: -20%;
   text-align: center;
   color: red;
 }
+
 .contact-form .btnContact {
   width: 50%;
   border: none;
@@ -350,6 +354,7 @@ textarea {
   color: #fff;
   cursor: pointer;
 }
+
 .btnContactSubmit {
   width: 50%;
   border-radius: 1rem;

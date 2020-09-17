@@ -41,6 +41,9 @@ body {
 #parallax2 {
   background-image: url("../images/cartoon-home22.jpeg");
 }
+#parallax3 {
+  background-image: url("../images/remote-parenting.jpg");
+}
 
 .container-middle {
   padding-top: 10px;

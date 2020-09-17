@@ -111,5 +111,5 @@ $(document).ready(function () {
 });
 
 function isSubscribed() {
-    alert("Thanks for Subscribing");
-  }
+  alert("Thanks for Subscribing");
+}

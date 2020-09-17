@@ -109,3 +109,7 @@ $(document).ready(function () {
 
   shuffle();
 });
+
+function isSubscribed() {
+    alert("Thanks for Subscribing");
+  }

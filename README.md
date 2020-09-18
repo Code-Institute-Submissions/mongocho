@@ -4,7 +4,7 @@
 
 ## (de)MOtivational Cartoons
 
-I've designed and built this website to show and promote my cartoons and to utilize it as a platform to showcase my work as cartoonist.
+I am an anthusiastic cartoonist and illustrator and I planned and built this website simply to showcase some of my work and to have fun. I've designed and built this website to show and promote my cartoons and to utilize it as a platform to showcase my work as cartoonist.
 
 The website shows a limited number of drawings and cartoons in the gallery which I am planning to update regularly.
 
@@ -135,7 +135,7 @@ In order to do this is followed the below steps:
 
 Wireframes created in Balsamiq:
 
-You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blob/master/wireframes/kuua-mockup.png)
+You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blob/master/wireframes/mongocho-mockup.png)
 
 # Credits
 

@@ -117,6 +117,7 @@ body {
   height: 500px;
 }
 
+/* Modal Styling */
 .stat-modal {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
@@ -174,7 +175,7 @@ body {
 .memory-card {
   width: calc(25% - 30px);
   height: calc(33.333% - 30px);
-  margin: 5px;
+  margin: 3px;
   cursor: pointer;
   position: relative;
   -webkit-transform: scale(1);
@@ -212,12 +213,12 @@ body {
 .back-face {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 1px;
   position: absolute;
   border-radius: 10px;
   background: rgb(255, 255, 255);
   border: solid rgb(39, 32, 32);
-  border-width: 1.4px;
+  border-width: 1.5px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }

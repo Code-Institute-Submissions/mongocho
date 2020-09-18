@@ -4,11 +4,11 @@
 
 ## (de)MOtivational Cartoons
 
-I am an anthusiastic cartoonist and illustrator and I planned and built this website simply to showcase some of my work and to have fun. I've designed and built this website to show and promote my cartoons and to utilize it as a platform to showcase my work as cartoonist.
+As an anthusiastic cartoonist and illustrator, I planned and built a website to showcase some of my work, to have fun and to connect with an audience that will appreciate my humor and will hopefully engage with what it has in it.
 
-The website shows a limited number of drawings and cartoons in the gallery which I am planning to update regularly.
+The website is not intended to be an exhaustive portfolio of my work but a creative excercise to show a limited number of drawings and cartoons in the gallery which I am planning to update regularly.
 
-I have included a memory game with some of my characters which aims to entertain and to engage the visitors.
+I wanted to have a memory game where I show some of my characters in pairs to be matched in the least possible number of moves. 
 
 The logo has been created by me.
 
@@ -21,9 +21,25 @@ There is a section with a short introduction to what MOngocho is about and a foo
 
 There are several hover effects in the footer, over the titles and in social media icons.
 
-The next page is a gallery with a selection of cartoons and drawings. This gallery displays in a modal with easy navigation in carrousel or in group.
-
 The Contact Us section is a form with "required fields" and drop down menu to select style of painting desired.
+
+### Using the website
+
+- The visitor will see the Landing Page with the logo on top and a tagline.
+- A NavBar provides an easy way to select the desired section and sticks to the top when scrolling down.
+- A first cartoon appears and gives a 3D effect (Parallax) when scrolling) giving way to text explaining who I am.
+- A new cartoon appears and, again, a text section appears with an explanation of how I create my drawings.
+- A third cartoon is revealed before reaching the footer.
+
+### The Gallery
+
+- The next page is a gallery with a selection of cartoons and drawings. This gallery displays in a modal with easy navigation in carrousel or in group with easy browsing.
+
+### The Memory Game
+
+- The memory game is a 4 x 4 card grid with back logo and 8 pair of cartoons (4 Female and 4 Male).
+- I have modified the game I got inspiration and guidance from with new styling, design, number of cards and functionality.
+- I added a Restart Button and a counter to make it more engaging and fun to play.
 
 # User Stories
 
@@ -41,22 +57,13 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 - As a cartoonist I want to promote my work
 - As a cartoonist I want to connect with cartoons enthusiasts
 
-# Sections
-
-- The logo
-- The navigation bar with links to the different pages
-- About Us with a short introduction
-- Different images of pieces displayed with parallax effect to give a dinamic an tridimentional look.
-- The gallery, with clickable buttons displaying samples of my cartoons
-- Contact Us, to email the gallery with questions and queries
-- An embedded GoogleMaps with the location to facilitate visitors to find us
-- The Footer, with contact information and social media links
 
 ## Existing Features
 
 - The navigation bar collapses with a burger button on smaller screens.
 - The gallery displayed in a modal. This has been achieved using Fancybox.
-- Contact Us with drop down menu to email the gallery with questions and queries.
+- Memory game with functionality coded on JavaScript
+- Contact Us form
 - The Footer, with contact information and social media links.
 
 ## Using the Contact Us form
@@ -64,12 +71,10 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 Go to "Contact Us"
 
 - The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form before sending.
-- A preselected set of reasons to contact shows in a drop down menu.
 
 ## Features Left to Implement
 
-- In a future release I would like to add a filter of paintings per style.
-- I would also like to add a shopping cart and a e-commerce marketplace for customers to select, check out, pay and purchase art pieces.
+- A future release will include add a shopping cart for customers to select, check out, pay and purchase cartoons.
 
 # Technologies Used
 
@@ -86,20 +91,17 @@ Go to "Contact Us"
 
 ## Testing
 
-- No testing has been automated. All performed manually.
-- We have asked 10 people to act as potential users of the website.
-- All the tests below where done manually.
-- The tests where done in Chrome, Safari, Firefox and IE
-- HTML Code validated with [validator.w3.org](https://validator.w3.org/nu/#textarea)
+- Manual testing was performed throughout the creation of this site. 
+- No testing has been automated. 
+- We have asked 8 people to act as potential users of the website.
+- The site has been tested in Laptops and desktops in in Chrome, Safari, Firefox and IE to ensure it displays as desired.
+- The site has been tested in iOS and Android phones in Safari, Chrome and Firefox.
+- Throughout the build of this site, I used Chrome Develpers Tool.
 
-### Using the website
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://validator.w3.org/)
 
-- Open the website and to see a hint of how a large print would look on a wall
-- On the Navigation Bar, the user sees the options where to navigate to. The burger button does now collapse back up again in this version. An improved version with JS will be done in next release.
 
-- “Gallery” the user will go to a collection of cartoons, showin in a pop up window the selected image and it changes to different pieces by clicking the arrows right or left, making it easy to navigate.
-- "Contact US" scrolls down to a form to select different reasons to contact in a drop down menu. The form offers an intuitive and easy way to get in contact with the gallery.
-- "Location" has a Google Map, which worked well in the devices tested.
 
 In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
 
@@ -143,7 +145,7 @@ You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blo
 
 - The full website has been completely created by me.
 - The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/)
-- The memory game has been created following tutorial by Marina Ferreira - Software Engineer | Code Sketch Channel Tutorials [here](https://marina-ferreira.github.io/tutorials/js/memory-game/)
+- The memory game has been created inspired by the tutorial by Marina Ferreira - Software Engineer | Code Sketch Channel Tutorials [here](https://marina-ferreira.github.io/tutorials/js/memory-game/)
 - I used modules of Bootstrap and styled to my taste
 
 ## Media

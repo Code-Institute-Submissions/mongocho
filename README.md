@@ -147,7 +147,10 @@ In order to do this is followed the below steps:
 - Select Clone "Clone or download" on Github, copy the link.
 - In VSCode , select File -> Add Folder to Workspace -> Select the newly created directory.
 - Select Terminal Window.
-- In the window, type: git config --global user.name <github userID>.
+- In the terminal type:
+git remote add origin https://github.com/FabiBrachetta/mongocho.git
+git branch -M master
+git push -u origin master
 - In VSCode, I’ve created the site, committed and pushed onto repository.
 - On GitHub, I’ve clicked on Mongocho repository.
 - Under Mongocho repository name, click “Settings”.

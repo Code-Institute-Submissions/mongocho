@@ -101,7 +101,7 @@ Go to "Contact Us"
 
 ### The project was build with:
 
-- HTML, to structure the website.
+- HTML5, to structure the website.
 - CSS, to style the website.
 - [jQuery](https://jquery.com/), for gallery.
 - [Visual Studio Code](https://code.visualstudio.com/), for the development environment.

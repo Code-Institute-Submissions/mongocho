@@ -137,7 +137,7 @@ In order to do this is followed the below steps:
 
 Wireframes created in Balsamiq:
 
-You can find the wireframes [here](https://github.com/FabiBrachetta/kuua-ms1/blob/master/wireframes/mongocho-mockup.png)
+You can find the wireframes [here](https://github.com/FabiBrachetta/mongocho/blob/master/wireframes/mongocho-mockup.png)
 
 # Credits
 

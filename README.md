@@ -11,7 +11,7 @@ The website is not intended to be an exhaustive portfolio of my work but a creat
 
 The main feature is a memory game where I show some of my characters in pairs to be matched in the least possible number of moves.
 
-# User Experience
+## User Experience
 
 ### UX
 
@@ -42,7 +42,7 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 - I have modified the game I got inspiration and guidance from Marina Ferreira (Credited) with new styling, design, number of cards and functionality.
 - I added a Restart Button and a counter to make it more engaging and fun to play.
 
-# User Stories
+## User Stories
 
 ### As User
 
@@ -58,7 +58,7 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 - As a cartoonist I want to promote my work
 - As a cartoonist I want to connect with cartoons enthusiasts
 
-# Existing Features
+## Existing Features
 
 - The navigation bar collapses with a burger button on smaller screens.
 - The gallery displayed in a modal. This has been achieved using Fancybox.
@@ -66,17 +66,17 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 - Contact Us form
 - The Footer, with contact information and social media links.
 
-# Using the Contact Us form
+## Using the Contact Us form
 
 Go to "Contact Us"
 
 - The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form before sending.
 
-# Features Left to Implement
+## Features Left to Implement
 
 - A future release will include add a shopping cart for customers to select, check out, pay and purchase cartoons.
 
-# Technologies Used
+## Technologies Used
 
 ## The project was build with:
 
@@ -104,7 +104,7 @@ Go to "Contact Us"
 In all screens tested the website looks exactly in the desired way and responded in expected way and achieving the goals of the site.
 The memory game functions exactly as desired, with 3D effect and rotation appearance.
 
-### Bugs
+## Bugs
 
 There was a bug when displaying the memory card in small screen. The cards animation did not work and the functionality of the game was not responding.
 
@@ -115,7 +115,7 @@ now is working very well.
 There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion
 The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px.
 
-# Deployment
+## Deployment
 
 I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/mongocho/)
 
@@ -132,7 +132,7 @@ In order to do this is followed the below steps:
 - Under MOngocho repository name, click “Settings”.
 - Under "GitHub Pages", use the Source drop-down menu and select Master Branch for live url.
 
-# Wireframes
+## Wireframes
 
 Wireframes created in Balsamiq:
 

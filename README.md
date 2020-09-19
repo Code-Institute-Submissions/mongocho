@@ -67,24 +67,24 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 
 ### As User
 
-- As user, I want to see cartoons
-- As user, I want to be able to look at the cartoons in detail
-- As user, I want to be able to contact Mongocho to ask for a particular design
-- As user, I want to play the memory game and get familiarised with the characters created by Mongocho
+- As user, I want to see cartoons.
+- As user, I want to be able to look at the cartoons in detail.
+- As user, I want to be able to contact Mongocho to ask for a particular design.
+- As user, I want to play the memory game and get familiarised with the characters created by Mongocho.
 
 ### As a cartoonist
 
-- As a cartoonist I want to show a selection of the cartoons that I create
-- As a cartoonist I want to be able to be contacted through the page
-- As a cartoonist I want to promote my work
-- As a cartoonist I want to connect with cartoons enthusiasts
+- As a cartoonist I want to show a selection of the cartoons that I create.
+- As a cartoonist I want to be able to be contacted through the page.
+- As a cartoonist I want to promote my work.
+- As a cartoonist I want to connect with cartoons enthusiasts.
 
 ## Existing Features
 
 - The navigation bar collapses with a burger button on smaller screens.
 - The gallery displayed in a modal. This has been achieved using Fancybox.
-- Memory game with functionality coded on JavaScript
-- Contact Us form
+- Memory game with functionality coded on JavaScript.
+- Contact Us form.
 - The Footer, with contact information and social media links.
 
 ## Using the Contact Us form
@@ -101,14 +101,14 @@ Go to "Contact Us"
 
 ### The project was build with:
 
-- HTML, to structure the website
-- CSS, to style the website
-- [jQuery](https://jquery.com/), for gallery
-- [Visual Studio Code](https://code.visualstudio.com/), for the development environment
-- [Github](https://github.com/), as the version control technology and GitHub Pages as the webserver technology to publish the website
-- [Bootstrap](https://getbootstrap.com/), to utilize responsive elements
-- [Font Awesome](https://fontawesome.com/), to utilize icons
-- [Google Fonts](https://fonts.google.com/), to utilize different fonts
+- HTML, to structure the website.
+- CSS, to style the website.
+- [jQuery](https://jquery.com/), for gallery.
+- [Visual Studio Code](https://code.visualstudio.com/), for the development environment.
+- [Github](https://github.com/), as the version control technology and GitHub Pages as the webserver technology to publish the website.
+- [Bootstrap](https://getbootstrap.com/), to utilize responsive elements.
+- [Font Awesome](https://fontawesome.com/), to utilize icons.
+- [Google Fonts](https://fonts.google.com/), to utilize different fonts.
 
 ## Testing
 
@@ -131,23 +131,23 @@ There was a bug when displaying the memory card in small screen. The cards anima
 
 The problem is now fixed.
 The css transform property is not fully supported by IOS browsers, to fully support it, I needed to add some css browser specific prefix to make it work on iOS (-webkit-transform:) . What I did was to copy the css file into https://autoprefixer.github.io/ to help format it and add the necessary css prefixes so it can be supported by most browsers.
-now is working very well.
+Now is working very well.
 
-There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion
+There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion.
 The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px.
 
 ## Deployment
 
-I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/mongocho/)
+I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/mongocho/).
 
 In order to do this is followed the below steps:
 
 - Create a directory on the local file system.
 - In GitHub “Repositories” I’ve clicked on the green “new” button and created a repository with the name of Mongocho.
-- Select Clone "Clone or download" on Github, copy the link
-- In VSCode , select File -> Add Folder to Workspace -> Select the newly created directory
-- Select Terminal Window
-- In the window, type: git config --global user.name <github userID>
+- Select Clone "Clone or download" on Github, copy the link.
+- In VSCode , select File -> Add Folder to Workspace -> Select the newly created directory.
+- Select Terminal Window.
+- In the window, type: git config --global user.name <github userID>.
 - In VSCode, I’ve created the site, committed and pushed onto repository.
 - On GitHub, I’ve clicked on Mongocho repository.
 - Under MOngocho repository name, click “Settings”.
@@ -157,22 +157,22 @@ In order to do this is followed the below steps:
 
 Wireframes created in Balsamiq:
 
-You can find the wireframes [here](https://github.com/FabiBrachetta/mongocho/blob/master/wireframes/mongocho-mockup.png)
+You can find the wireframes [here](https://github.com/FabiBrachetta/mongocho/blob/master/wireframes/mongocho-mockup.png).
 
 # Credits
 
 ## Content
 
 - The full website has been completely created by me.
-- The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/)
-- The memory game has been created inspired by the tutorial by Marina Ferreira - Software Engineer | Code Sketch Channel Tutorials [here](https://marina-ferreira.github.io/tutorials/js/memory-game/)
-- I used modules of Bootstrap and styled to my taste
+- The gallery was created using Fancybox from [Fancyapps](https://fancyapps.com/fancybox/3/).
+- The memory game has been created inspired by the tutorial by Marina Ferreira - Software Engineer | Code Sketch Channel Tutorials [here](https://marina-ferreira.github.io/tutorials/js/memory-game/).
+- I used modules of Bootstrap and styled to my taste.
 
 ## Media
 
 - The images and logos used are all my creation. I own all rights to use and publish the images.
-- I authorise free use of any image for non commercial use (credits would be appreciated)
+- I authorise free use of any image for non commercial use (credits would be appreciated).
 
 ## Acknowledgements
 
-- Special thanks to my mentor [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance
+- Special thanks to my mentor [@guidocecilio_mentor](https://github.com/guidocecilio) for his guidance and support.

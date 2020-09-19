@@ -2,7 +2,7 @@
 
 # Mongocho
 
-### (de)MOtivational Cartoons
+### (de)Motivational Cartoons
 
 Mongocho is a “Just for fun" website created to offer cartoon and illustration enthusiasts a gallery updated weekly with copyright free drawings and graphic gags.
 

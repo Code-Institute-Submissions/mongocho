@@ -150,7 +150,7 @@ In order to do this is followed the below steps:
 - In the window, type: git config --global user.name <github userID>.
 - In VSCode, I’ve created the site, committed and pushed onto repository.
 - On GitHub, I’ve clicked on Mongocho repository.
-- Under MOngocho repository name, click “Settings”.
+- Under Mongocho repository name, click “Settings”.
 - Under "GitHub Pages", use the Source drop-down menu and select Master Branch for live url.
 
 ## Wireframes

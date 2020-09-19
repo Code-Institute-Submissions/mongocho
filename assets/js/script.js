@@ -91,7 +91,7 @@ $(document).ready(function () {
 
   // this function is what restarts the game when the restart button or replay button is clicked.
   // It hides the modal, return counter and closedCards to zero and remove the .flip css class
-  // so the cards can be flipped back to there hidden state
+  // so the cards can be flipped back to their hidden state
   const restart = () => {
     modal.style.display = "none";
     closedCards = 0;

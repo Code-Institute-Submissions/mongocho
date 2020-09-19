@@ -60,7 +60,7 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 ### The Memory Game
 
 - The memory game is a 4 x 4 card grid with back logo and 8 pair of cartoons (4 Female and 4 Male).
-- I have modified the game I got inspiration and guidance from Marina Ferreira (Credited) with new styling, design, number of cards and functionality.
+- I got inspiration and guidance from Marina Ferreira (Credited) but I have modified the game with my own design with new styling, number of cards and functionality.
 - I added a Restart Button and a counter to make it more engaging and fun to play.
 
 ## User Stories

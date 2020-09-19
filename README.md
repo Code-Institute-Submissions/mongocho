@@ -1,18 +1,19 @@
 <img src="assets/images/mongocho-card-back.png" alt="logocopy" class="center" />
 
-## Mongocho
+# Mongocho
+### (de)MOtivational Cartoons
 
-## (de)MOtivational Cartoons
+Mongocho is a “Just for fun’ website created to offer cartoon and illustration enthusiasts a gallery updated weekly with copyright free drawings and graphic gags.
 
-As an anthusiastic cartoonist and illustrator, I planned and built a website to showcase some of my work, to have fun and to connect with an audience that will appreciate my humor and will hopefully engage with what it has in it.
+The site is planned and built to showcase some of my work, to have fun and to connect with an audience that will appreciate my kind of humour to hopefully engage in a conversation.
 
-The website is not intended to be an exhaustive portfolio of my work but a creative excercise to show a limited number of drawings and cartoons in the gallery which I am planning to update regularly.
+The website is not intended to be an exhaustive portfolio of my work but a creative exercise to show a limited number of drawings and cartoons in the gallery which I am planning to update weekly with new material.
 
-I wanted to have a memory game where I show some of my characters in pairs to be matched in the least possible number of moves. 
+The main feature is a memory game where I show some of my characters in pairs to be matched in the least possible number of moves.
 
-The logo has been created by me.
+# User Experience
 
-## UX
+### UX
 
 This website has been designed as a multi-page front end website with parallax on scrolling.
 
@@ -38,27 +39,26 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 ### The Memory Game
 
 - The memory game is a 4 x 4 card grid with back logo and 8 pair of cartoons (4 Female and 4 Male).
-- I have modified the game I got inspiration and guidance from with new styling, design, number of cards and functionality.
+- I have modified the game I got inspiration and guidance from Marina Ferreira (Credited) with new styling, design, number of cards and functionality.
 - I added a Restart Button and a counter to make it more engaging and fun to play.
 
 # User Stories
 
-## As User
+### As User
 
 - As user, I want to see cartoons
 - As user, I want to be able to look at the cartoons in detail
 - As user, I want to be able to contact Mongocho to ask for a particular design
 - As user, I want to play the memory game and get familiarised with the characters created by Mongocho
 
-## As a cartoonist
+### As a cartoonist
 
 - As a cartoonist I want to show a selection of the cartoons that I create
 - As a cartoonist I want to be able to be contacted through the page
 - As a cartoonist I want to promote my work
 - As a cartoonist I want to connect with cartoons enthusiasts
 
-
-## Existing Features
+# Existing Features
 
 - The navigation bar collapses with a burger button on smaller screens.
 - The gallery displayed in a modal. This has been achieved using Fancybox.
@@ -66,13 +66,13 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 - Contact Us form
 - The Footer, with contact information and social media links.
 
-## Using the Contact Us form
+# Using the Contact Us form
 
 Go to "Contact Us"
 
 - The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form before sending.
 
-## Features Left to Implement
+# Features Left to Implement
 
 - A future release will include add a shopping cart for customers to select, check out, pay and purchase cartoons.
 
@@ -91,8 +91,8 @@ Go to "Contact Us"
 
 ## Testing
 
-- Manual testing was performed throughout the creation of this site. 
-- No testing has been automated. 
+- Manual testing was performed throughout the creation of this site.
+- No testing has been automated.
 - We have asked 8 people to act as potential users of the website.
 - The site has been tested in Laptops and desktops in in Chrome, Safari, Firefox and IE to ensure it displays as desired.
 - The site has been tested in iOS and Android phones in Safari, Chrome and Firefox.
@@ -101,9 +101,8 @@ Go to "Contact Us"
 - [HTML Validator](https://validator.w3.org/)
 - [CSS Validator](https://validator.w3.org/)
 
-
-
-In all screens tested the website looks exactly in the desired way and responded to an imaginary user/gallery owner trying to achieve different goals in the site.
+In all screens tested the website looks exactly in the desired way and responded in expected way and achieving the goals of the site.
+The memory game functions exactly as desired, with 3D effect and rotation appearance.
 
 ### Bugs
 
@@ -116,7 +115,7 @@ now is working very well.
 There was a bug on displaying the parallax background images in landscape, as they were rendered out of proportion
 The parallax effect on mobile is not fully supported. The media query uses 600px to stop the parallax effect but when switched to landscape, the width becomes larger and the parallax effect tried to render in the mobile browser so I increased the width of the media query to 1200px to cover most phones and tabs. The parallax effects works fine on android even at the 600px.
 
-## Deployment
+# Deployment
 
 I used Visual Studio Code to write all the code. My website is deployed on Github Pages - To visit, click [Here](https://fabibrachetta.github.io/mongocho/)
 
@@ -133,7 +132,7 @@ In order to do this is followed the below steps:
 - Under MOngocho repository name, click “Settings”.
 - Under "GitHub Pages", use the Source drop-down menu and select Master Branch for live url.
 
-## Wireframes
+# Wireframes
 
 Wireframes created in Balsamiq:
 

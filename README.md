@@ -1,6 +1,7 @@
 <img src="assets/images/mongocho-card-back.png" alt="logocopy" class="center" />
 
 # Mongocho
+
 ### (de)MOtivational Cartoons
 
 Mongocho is a “Just for fun" website created to offer cartoon and illustration enthusiasts a gallery updated weekly with copyright free drawings and graphic gags.
@@ -12,24 +13,24 @@ The website is not intended to be an exhaustive portfolio of my work but a creat
 The main feature is a memory game where I show some of my characters in pairs to be matched in the least possible number of moves.
 
 ## Table of Contents
+
 1. [**User Experience**](#user-experience)
 2. [**UX**](#ux)
-2. [**Using the website**](#using-the-website)
-2. [**The Gallery**](#the-gallery)
-2. [**The Memory Game**](#the-memory-game)
-2. [**User Stories**](#user-stories)
-2. [**As User**](#as-user)
-2. [**As a Cartoonist**](#as-a-cartoonist)
-2. [**Existing Features**](#existing-features)
-2. [**Using the Contact Us form**](#using-the-contact-us-form)
-2. [**Technologies Used**](#technologies-used)
-2. [**Testing**](#testing)
-2. [**Bugs**](#bugs)
-2. [**Deployment**](#deployment)
-2. [**Wireframese**](#wireframes)
-2. [**Credits**](#credits)
-2. [**Acknowledgements**](#acknowledgements)
-
+3. [**Using the website**](#using-the-website)
+4. [**The Gallery**](#the-gallery)
+5. [**The Memory Game**](#the-memory-game)
+6. [**User Stories**](#user-stories)
+7. [**As User**](#as-user)
+8. [**As a Cartoonist**](#as-a-cartoonist)
+9. [**Existing Features**](#existing-features)
+10. [**Using the Contact Us form**](#using-the-contact-us-form)
+11. [**Technologies Used**](#technologies-used)
+12. [**Testing**](#testing)
+13. [**Bugs**](#bugs)
+14. [**Deployment**](#deployment)
+15. [**Wireframese**](#wireframes)
+16. [**Credits**](#credits)
+17. [**Acknowledgements**](#acknowledgements)
 
 ## User Experience
 
@@ -89,6 +90,7 @@ The Contact Us section is a form with "required fields" and drop down menu to se
 ## Using the Contact Us form
 
 Go to "Contact Us"
+
 - The contact fields are required and sending emssages without completing isn't allowed, showing a message to fill the form before sending.
 
 ## Features Left to Implement
